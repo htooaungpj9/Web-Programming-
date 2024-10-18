@@ -1,0 +1,88 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Box Styling */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background-color: #121212;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 24px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.input-group input:focus {
+    border-color: #e63946;
+}
+
+/* Button Styling */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #b52b35;
+}
+
+/* Additional Elements */
+.login-box p {
+    margin-top: 16px;
+}
+
+.login-box a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #121212;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand span {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+}
+
+.menu-list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+.menu-list li a:hover {
+    color: #e63946;
+}
+
+
+.workout-box {
+    padding: 32px;
+    text-align: center;
+    background-color: #121212;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 48px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.workout-box h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.timer-box {
+    margin: 24px 0;
+}
+
+.timer-box h3 {
+    font-size: 32px;
+    color: #e63946;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.instructions {
+    font-size: 19px;
+    color: #aaa;
+}
+
+.instructions p {
+    margin-top: 16px;
+}
+
+
+.btn-start, .btn-pause, .btn-stop {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-start {
+    background-color: #e63946;
+    color: #fff;
+}
+
+.btn-start:hover {
+    background-color: #b52b35;
+}
+
+.btn-pause, .btn-stop {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #e63946;
+}
+
+.btn-pause:hover, .btn-stop:hover {
+    background-color: #e63946;
+    color: #fff;
+}
+
+
+.instructions {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.instructions p {
+    font-size: 19px;
+    color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+    .workout-box {
+        padding: 16px;
+    }
+
+    .top-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .brand {
+        margin-bottom: 16px;
+    }
+}

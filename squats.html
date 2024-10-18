@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squats Workout - DreamHub</title>
+    <link rel="stylesheet" href="squats-style.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="brand">
+                <img src="images/logo.png" alt="Logo">
+                <span>DreamHub</span>
+            </div>
+            <ul class="menu-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercise.html">Exercises</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="workout-page">
+        <section class="workout-box">
+            <h2>Squats Workout</h2>
+            <div class="timer-box">
+                <h3>Time Remaining: <span id="time-display">00:00</span></h3>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="btn-start">Start</button>
+                <button id="pause-btn" class="btn-pause">Pause</button>
+                <button id="stop-btn" class="btn-stop">Stop</button>
+            </div>
+            <div class="instructions">
+                <p id="current-instruction">Ready to start your squats workout? Click Start to begin!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="squats.js"></script>
+</body>
+</html>
